@@ -1,19 +1,19 @@
-@keyframes fadeIn {
+@keyframes fadein {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
-@-moz-keyframes fadeIn {
+@-moz-keyframes fadein {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes fadein {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
-@-o-keyframes fadeIn {
+@-o-keyframes fadein {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
@@ -22,11 +22,11 @@ body {
   background-color: #dee2e6;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
-  animation: fadeIn linear 2s;
-  -webkit-animation: fadeIn linear 2s;
-  -moz-animation: fadeIn linear 2s;
-  -o-animation: fadeIn linear 2s;
-  -ms-animation: fadeIn linear 2s;
+  animation: fadein linear 2s;
+  -webkit-animation: fadein linear 2s;
+  -moz-animation: fadein linear 2s;
+  -o-animation: fadein linear 2s;
+  -ms-animation: fadein linear 2s;
 }
 
 #header {
@@ -45,7 +45,7 @@ img:hover {
   height: 35%;
 }
 
-#userFaced {
+#userfaced {
   margin-left: 45%;
   margin-right: 45%;
 }

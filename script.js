@@ -17,6 +17,5 @@ function calculation () {
   circumRound = circum.toFixed(2) // Rounds resulting number to two decimal places.
 
   document.getElementById('result').innerHTML = 'The area of your circle is ' + areaRound + ' (' + area + ')' // Displays both the area rounded and unrounded.
-  document.getElementById('result').anima
   document.getElementById('result2').innerHTML = 'The circumference of your circle is ' + circumRound + ' (' + circum + ')' // Displays both the circumference rounded and unrounded.
 }
